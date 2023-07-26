@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*criando variavás*/
+:root{
+    --cor_menu: linear-gradient(to right,#56152f,#dcaabc);
+    --cor_meio: linear-gradient(to bottom,#56152f,#4d162ace);
+    --altura_rodape:30px;
+    --largura_esquerda:25%;
+}
+
+
+/*cabeçalho*/
+.cabecalho{
+    background-color: #56152f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: var(--altura_cabecalho);
+}
+.cab__detalhes_foto{
+    width: 18%;
+    border-radius: 50%;
+}
+h1{
+    color:#dfcad0;
+}
+.ok{
+    display: flex;
+}
+
+/*lateral esquerda e meio da pagina Pink Paradise*/
+.principal1{
+    display: flex;
+    height: 100vh;
+}
+.lateral__esquer{
+    background: #56152f;
+    width: var(--largura_esquerda);
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.meio__1{
+    background:var(--cor_meio);
+    width: 75%;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+/*lateral esquerda ,meio, lateral direita,rodapé. Blog*/
+.principal{
+    display: flex;
+    
+}
+
+.lateral__esquerda{ 
+    background-color:#56152f;
+    width: 25%;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.meio{
+    background:var(--cor_meio);
+    width: 50%;
+    flex-grow: 1;
+    padding: 25px;
+    display: grid;
+    place-items: center;
+
+}   
+
+.lateral__direita{
+    background-color:#56152f;
+    width: 25%;
+    padding: 10px;
+   align-items: center;
+}
+.rodape{
+    background-color: #56152f;
+    height: var(--altura_rodape);
+}
+
+
+
+/*Menu*/
+.menu{
+    display: flex;  /**/
+    list-style: none;
+    text-decoration: none ;
+    margin-left: 30px;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 20px;    /**/
+    position: relative;
+    float: left;
+    border: 1px ;
+    border-radius: 10px;
+
+}
+
+.menu li a{
+
+    text-decoration: none;
+    color: #dfcad0;
+    font-size: 15px;
+    font-weight: 60;
+    background-color: #741f3eca;
+    padding: 6px 10px;    /**/
+    display: block;    /**/
+    border-radius: 10px;
+
+}
+
+.menu li a:hover{
+    background-color: #ffb0c656;
+
+}
+

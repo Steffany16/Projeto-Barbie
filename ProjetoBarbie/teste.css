@@ -1,0 +1,26 @@
+/* Estilos do layout */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Estilos da barra lateral esquerda */
+  .sidebar-left {
+    background-color: #f2f2f2;
+    width: 20%;
+    padding: 10px;
+  }
+  
+  /* Estilos do conteúdo principal */
+  .main-content {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  /* Estilos da barra lateral direita */
+  .sidebar-right {
+    background-color: #f2f2f2;
+    width: 20%;
+    padding: 10px;
+  }
